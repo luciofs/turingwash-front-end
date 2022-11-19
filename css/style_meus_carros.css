@@ -1,0 +1,25 @@
+body {
+    background:#EAF7FF;
+}
+
+.cabeçalho {
+    background: #6db2bb;
+}
+
+.rodape {
+    background: #6db2bb;
+}
+
+#profile {
+  height: 50px;
+  width: 50px;  
+}
+
+.card {
+    background: #fcfdfd;
+    border-radius: 12px;
+}
+
+#botao_adicionar {
+    background:#EAF7FF;
+}
