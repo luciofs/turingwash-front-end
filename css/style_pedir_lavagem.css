@@ -2,20 +2,45 @@ body {
     background:#EAF7FF;
 }
 
-.cabeçalho {
+.header {
     background: #6db2bb;
 }
 
-.rodape {
-    background: #6db2bb;
+.header-logo {
+    padding: 10px;    
+}
+
+.header-menu1 {
+    padding: 10px;
+}
+
+.header-menu2 {
+    padding: 10px;
+}
+
+.header-btexit {
+    padding: 10px;
+}
+
+.card-washer {
+    background: #fcfdfd;
+    border-radius: 12px;
+}
+
+.card-washer__name {
+    font: arial;
+    font-size: 20;
+
 }
 
 #profile {
   height: 50px;
   width: 50px;  
+
+}
+.footer {
+    background: #6db2bb;
 }
 
-.card {
-    background: #fcfdfd;
-    border-radius: 12px;
-}
+
+

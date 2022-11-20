@@ -9,57 +9,45 @@
     <style></style>
   </head>
   <body>
-    <header class="cabeçalho">
-      <img src="./img/turingwash-logo.svg" alt="ITuring"/>
-        '<span>Minhas lavagens</span>
-      <button>Sair</button>
+    <header class="header">
+      <div class="header-logo">
+        <img src="./img/turingwash-logo.svg" alt="ITuring"/>
+      </div>
+      <div class="header-menu">
+        <span class="header-menu__menu1">Meus carros</span>
+        <span class="header-menu__menu2">Minhas lavagens</span>
+        <button class="header-menu__btexit">Sair</button>
+      </div>
     </header>
-    <main>
-      <section>
-        <span>Lavadores disponíveis próximos de você...</span>
-      </section>
-      <section>
-        <article class="card">
-          <h6>Nome do Lavador</h6>
-          <img id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
-          <h6>Nota xx (xxx avaliações)</h6>
-          <p>R$ 80</p>
-        </article>
-      </section>
-      <section>
-        <article class="card">
-          <h6>Nome do Lavador</h6>
-          <img id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
-          <h6>Nota xx (xxx avaliações)</h6>
-          <p>R$ 80</p>
-        </article>
-      </section>
-      <section>
-        <article class="card">
-          <h6>Nome do Lavador</h6>
-          <img id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
-          <h6>Nota xx (xxx avaliações)</h6>
-          <p>R$ 80</p>
-        </article>
-      </section>
-      <section>
-        <article class="card">
-          <h6>Nome do Lavador</h6>
-          <img id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
-          <h6>Nota xx (xxx avaliações)</h6>
-          <p>R$ 80</p>
+
+    <main class="main-content">
+      <div class="main-title">
+        <span class="main-title__title">Lavadores disponíveis próximos de você...</span>
+      </div>
+      <section class="washer-list">
+        <article class="card-washer">
+          <span class="card-washer__name">Nome do Lavador</span>
+          <img class="card-washer__profile" id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
+          <h6 class="card-washer__note">Nota xx (xxx avaliações)</h6>
+          <p class="card-washer__price">R$ 80</p>
         </article>
       </section>
     </main>
-    <footer class="rodape">
-      <img src="./img/turingwash-logo.svg" alt="Logo Turingwash"/>
-      <span>Sobre</span>
-      <span>FAQ</span>
-      <span>Contato</span>
-      <span>Termo de uso</span>
-      <img src="./img/instagram-logo.jpg" alt="Logo instagram"/>
-      <span>@turingwash</span> 
-      <span>2022. TuringWash. Todos os direitos reservados</span> 
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./img/turingwash-logo.svg" alt="Logo Turingwash"/>
+      </div>
+      <div class="footer__menu">
+        <span>Sobre</span>
+        <span>FAQ</span>
+        <span>Contato</span>
+        <span>Termo de uso</span>
+      </div>
+      <div>
+        <img class="footer__instagran" src="./img/instagram-logo.jpg" alt="Logo instagram"/>
+        <span class="footer__twitter">@turingwash</span> 
+        <span class="footer__corpyrigth">2022. TuringWash. Todos os direitos reservados</span> 
+      </div>  
     </footer>
   </body>
 </html>
