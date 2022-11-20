@@ -21,15 +21,21 @@
     </header>
 
     <main class="main-content">
-      <div class="main-title">
-        <span class="main-title__title">Lavadores disponíveis próximos de você...</span>
+      <div class="main-content-title">
+        <span>Lavadores disponíveis próximos de você...</span>
+      </div>
+      <div class="main-content-subtitle">
+        <span>Lavar</span>
+        <input type="text" title="Modelo do veículo" value="" placeholder="Modelo"/>
+        <span>Ordenar por</span>
+        <input type="text" title="Proximidade" value="" placeholder="Proximidade"/>
       </div>
       <section class="washer-list">
-        <article class="card-washer">
-          <span class="card-washer__name">Nome do Lavador</span>
-          <img class="card-washer__profile" id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
-          <h6 class="card-washer__note">Nota xx (xxx avaliações)</h6>
-          <p class="card-washer__price">R$ 80</p>
+        <article class="washer-list-card">
+          <img class="washer-list-card__profile" id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
+          <span class="washer-list-card__name">Nome do Lavador</span>
+          <h6 class="washer-list-card__note">Nota xx (xxx avaliações)</h6>
+          <p class="washer-list-card__price">R$ 80</p>
         </article>
       </section>
     </main>

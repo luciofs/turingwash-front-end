@@ -3,31 +3,59 @@ body {
 }
 
 .header {
-    background: #6db2bb;
+    background: #BCF7FF;
 }
 
 .header-logo {
     padding: 10px;    
 }
 
-.header-menu1 {
+.header-menu {
     padding: 10px;
+    font: Arial;
+    font-style: bold;
+    font-size: 18px;
 }
 
-.header-menu2 {
-    padding: 10px;
+.header-menu__btexit {
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    font: arial;
+    font-style: bold;
+    font-size: 18px;
 }
 
-.header-btexit {
-    padding: 10px;
+.main-content {
+    margin: 0px;
 }
 
-.card-washer {
+.main-content-title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font: arial;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.main-content-subtitle {
+    font: arial;
+    font-style: bold;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.washer-list {
     background: #fcfdfd;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
-.card-washer__name {
+.washer-list-card {
+    margin: 12px;
+}
+
+.washer__name {
     font: arial;
     font-size: 20;
 
