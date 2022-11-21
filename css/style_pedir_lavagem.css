@@ -53,17 +53,20 @@ body {
 
 .washer-list-card {
     margin: 12px;
+    padding-bottom: 24px;
 }
 
-.washer__name {
+.washer-list-card__name {
     font: arial;
-    font-size: 20;
+    font-size: 16px;
 
 }
 
 #profile {
   height: 50px;
-  width: 50px;  
+  width: 50px; 
+  padding-top: 24px;
+  padding-bottom: 24px; 
 
 }
 .footer {
