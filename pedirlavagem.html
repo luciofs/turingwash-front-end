@@ -10,50 +10,58 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-logo">
-        <img src="./img/turingwash-logo.svg" alt="ITuring"/>
-      </div>
-      <div class="header-menu">
-        <span class="header-menu__menu1">Meus carros</span>
-        <span class="header-menu__menu2">Minhas lavagens</span>
-        <button class="header-menu__btexit">Sair</button>
-      </div>
+      <img class="header__img" src="./img/turingwash-logo.svg" alt="ITuring"/>
+      <span class="header__menu1">Meus carros</span>
+      <span class="header__menu2">Minhas lavagens</span>
+      <button class="header__btexit">Sair</button>
     </header>
 
     <main class="main-content">
       <div class="main-content-title">
         <span>Lavadores disponíveis próximos de você...</span>
       </div>
+      
       <div class="main-content-subtitle">
-        <span>Lavar</span>
-        <input type="text" title="Modelo do veículo" value="" placeholder="Modelo"/>
-        <span>Ordenar por</span>
-        <input type="text" title="Proximidade" value="" placeholder="Proximidade"/>
+        <div>
+          <span class="main-content-subtitle__input1">Lavar</span>
+          <input type="text" title="Modelo do veículo" value="" placeholder="Modelo"/>
+        </div>
+        <div>
+          <span class="main-content-subtitle__input2">Ordenar por</span>
+          <input type="text" title="Proximidade" value="" placeholder="Proximidade"/>
+        </div>
       </div>
-      <section class="washer-list">
-        <article class="washer-list-card">
-          <img class="washer-list-card__profile" id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
-          <span class="washer-list-card__name">Nome do Lavador</span>
-          <h6 class="washer-list-card__note">Nota xx (xxx avaliações)</h6>
-          <p class="washer-list-card__price">R$ 80</p>
-        </article>
-      </section>
+      
+      <div class="washer-list">
+        <div class="washer-list-card1">
+          <img class="washer-list-card1__profile" id="profile" src="./img/profile.png" alt="Foto do Lavador"/>
+          <span class="washer-list-card1__name">Nome do Lavador</span>
+        </div>
+        <div class="washer-list-card2">
+          <h6 class="washer-list-card2__note">Nota xx (xxx avaliações)</h6>
+          <p class="washer-list-card2__price">R$ 80</p>
+          <span class="washer-list-card2__aval">Ver avaliações</span>
+          <button class="washer-list-card2__btaval">Lavar meu carro</button>
+        </div>
+        
+      </div>
     </main>
+
     <footer class="footer">
-      <div class="footer__logo">
+      <section class="footer__logo">
         <img src="./img/turingwash-logo.svg" alt="Logo Turingwash"/>
-      </div>
-      <div class="footer__menu">
+      </section>
+      <section class="footer-menu">
         <span>Sobre</span>
         <span>FAQ</span>
         <span>Contato</span>
         <span>Termo de uso</span>
-      </div>
-      <div>
-        <img class="footer__instagran" src="./img/instagram-logo.jpg" alt="Logo instagram"/>
-        <span class="footer__twitter">@turingwash</span> 
-        <span class="footer__corpyrigth">2022. TuringWash. Todos os direitos reservados</span> 
-      </div>  
+      </section>
+      <section class="footer-menu2">
+        <img class="footer-menu2__instagran" src="./img/instagram-logo.jpg" alt="Logo instagram"/>
+        <span class="footer-menu2__twitter">@turingwash</span> 
+        <span class="footer-menu2__corpyrigth">2022. TuringWash. Todos os direitos reservados</span>
+      </section>  
     </footer>
   </body>
 </html>

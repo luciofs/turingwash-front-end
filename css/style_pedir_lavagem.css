@@ -4,74 +4,160 @@ body {
 
 .header {
     background: #BCF7FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
 
-.header-logo {
-    padding: 10px;    
+.header__img {
+   height: 70px;
+   width: 70px;
 }
 
-.header-menu {
-    padding: 10px;
-    font: Arial;
-    font-style: bold;
-    font-size: 18px;
+.header__menu1 {
+   font: times;
+   font-size: 20px;
 }
 
-.header-menu__btexit {
-    border-radius: 5px;
-    height: 40px;
-    width: 120px;
-    font: arial;
-    font-style: bold;
-    font-size: 18px;
+.header__menu2 {
+    font: times;
+    font-size: 20px;
+}
+
+.header__btexit {
+    height: 50px;
+    width: 90px;
+    border-radius: 10%;
 }
 
 .main-content {
-    margin: 0px;
+    display: block;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
 
 .main-content-title {
-    padding-top: 24px;
-    padding-bottom: 24px;
     font: arial;
     font-style: bold;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
 
 .main-content-subtitle {
     font: arial;
     font-style: bold;
     font-size: 16px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    justify-content: space-between;
+}
+
+.main-content-subtitle__input1 {
+    padding-right: 16px;
+}
+
+.main-content-subtitle__input2 {
+    padding-left: 50px;
+    padding-right: 16px;
 }
 
 .washer-list {
     background: #fcfdfd;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
 
 .washer-list-card {
-    margin: 12px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
 
-.washer-list-card__name {
+.washer-list-card1__profile {
     font: arial;
     font-size: 16px;
-
+    height: 80px;
+    width: 40;
 }
 
-#profile {
-  height: 50px;
-  width: 50px; 
-  padding-top: 24px;
-  padding-bottom: 24px; 
-
+.washer-list-card1__name {
+    font: arial;
+    font-size: 16px;
 }
-.footer {
+
+.washer-list-card__note {
+    font: arial;
+    font-size: 16px;
+}
+
+.washer-list-card__price {
+    font: arial;
+    font-size: 16px;
+}
+
+.footer { 
     background: #6db2bb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
+.footer__logo {
+    padding: 10px; 
+}
 
+.footer-menu {
+    font: arial;
+    font-size: 16px;
+    display: block;
+}
 
+.footer-menu2 {
+    font: arial;
+    font-size: 16px;
+}
+
+.footer-menu2__instagran {
+    font: arial;
+    font-size: 16px;
+    height: 80px;
+    width: 40;
+    position: fixed;
+    right: 16px;
+}
+
+.footer-menu2__twitter {
+    font: arial;
+    font-size: 16px;
+}
+
+.footer-menu2__corpyrigth {
+    font: arial;
+    font-size: 16px;
+}
