@@ -122,42 +122,38 @@ body {
 
 .footer { 
     background: #6db2bb;
+    font: arial;
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
 
-.footer__logo {
-    padding: 10px; 
-}
-
-.footer-menu {
+.footer-about {
     font: arial;
     font-size: 16px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
 }
 
-.footer-menu2 {
+.footer-instagran {
     font: arial;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: space-between;
 }
 
-.footer-menu2__instagran {
-    font: arial;
-    font-size: 16px;
-    height: 80px;
-    width: 40;
-    position: fixed;
-    right: 16px;
-}
-
-.footer-menu2__twitter {
-    font: arial;
-    font-size: 16px;
-}
-
-.footer-menu2__corpyrigth {
-    font: arial;
-    font-size: 16px;
+.footer-instagran__insta {
+    height: 30px;
+    width: 30px;
+    align-items:center;
 }
