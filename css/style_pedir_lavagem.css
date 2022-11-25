@@ -30,9 +30,13 @@ body {
 }
 
 .header__btexit {
-    height: 50px;
-    width: 90px;
-    border-radius: 10%;
+    height: 30px;
+    width: 70px;
+    border-radius: 15%;
+    background: #8FF2FF;
+    border-style: none;
+
+
 }
 
 .main-content {
@@ -76,6 +80,10 @@ body {
 .main-content-subtitle__input2 {
     padding-left: 50px;
     padding-right: 16px;
+}
+
+.sec {
+    padding-bottom: 30px;
 }
 
 .washer-list {

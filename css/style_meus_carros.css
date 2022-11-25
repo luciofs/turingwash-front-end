@@ -2,24 +2,135 @@ body {
     background:#EAF7FF;
 }
 
-.cabeçalho {
-    background: #6db2bb;
+.header {
+    background: #BCF7FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
 }
 
-.rodape {
-    background: #6db2bb;
-}
+.header__img {
+    height: 70px;
+    width: 70px;
+ }
+ 
+ .header__menu1 {
+    font: times;
+    font-size: 20px;
+ }
+ 
+ .header__menu2 {
+     font: times;
+     font-size: 20px;
+ }
+ 
+ .header__btexit {
+     height: 30px;
+     width: 70px;
+     border-radius: 15%;
+     background: #8FF2FF;
+     border-style: none;
+ }
+ 
+ .main-content-title {
+     font: arial;
+     font-style: bold;
+     font-size: 24px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 16px;
+     padding-left: 16px;
+     padding-bottom: 36px;
+     padding-right: 16px;
+ }
+ 
+ .washer-list1 {
+     background: #fcfdfd;
+     border-radius: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 16px;
+     padding-left: 16px;
+     padding-bottom: 36px;
+     padding-right: 16px;
+     margin-bottom: 20px;
+ }
 
-#profile {
-  height: 50px;
-  width: 50px;  
-}
-
-.card {
+ .washer-list2 {
     background: #fcfdfd;
-    border-radius: 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 36px;
+    padding-right: 16px;
+    margin-bottom: 20px;
 }
 
-#botao_adicionar {
-    background:#EAF7FF;
+.bt_excluir {
+    height: 30px;
+    width: 100px;
+    border-radius: 15%;
+    background: #FF9B9B;
+    border-style: none;
+ }
+
+ .adiciona {
+    padding: 66px;
+        
+ }
+
+ .bt_adicionar__botao {
+    background: #BFF2FF;
+    height: 40px;
+    width: 120px;
+    border-radius: 15%;
+    border-style: none;
+ }
+ 
+ .footer { 
+    background: #6db2bb;
+    font: arial;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+.footer-about {
+    font: arial;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.footer-instagran {
+    font: arial;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+.footer-instagran__insta {
+    height: 30px;
+    width: 30px;
+    align-items:center;
 }
